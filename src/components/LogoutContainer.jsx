@@ -13,8 +13,15 @@ const LogoutContainer = () => {
         className="btn logout-btn"
         onClick={() => setShowLogout(!showLogout)}
       >
-        
+        <FaUserCircle />
+        {user?.name}
+        <FaCaretDown />
       </button>
+      <div className={showLogout ? "dropdown show-dropdown" : "dropdown"}>
+        <button type="button" className="dropdown-btn" onClick={logoutUser}>
+          logout
+        </button>
+      </div>
     </Wrapper>
   );
 };
