@@ -14,22 +14,25 @@ const Landing = () => {
       <div className="container page">
         <div className="info">
           <h1>
-            Job <span>tracking</span> app
+            Your <span>Reliable</span> <strong>Job</strong> <span>Tracker</span>
           </h1>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident,
-            dignissimos incidunt sint quidem illo, culpa deserunt magnam ut
-            voluptate perspiciatis quae iusto? Aliquid asperiores exercitationem
-            architecto consequatur! Earum, sapiente eum!
+            Welcome to Job Lagbe – Where Your Career Journey Begins!
+            Effortlessly manage and track your job applications with our
+            intuitive Job Tracking Platform. Stay organized, never miss a
+            deadline, and take control of your career destiny. Start tracking,
+            start succeeding!
+            <br />
+            Get started now!
           </p>
           <Link to="/register" className="btn register-link">
-          Register
+            Register
           </Link>
           <Link to="/login" className="btn">
             Login / Demo User
           </Link>
         </div>
-        <img src={main_office} alt="Job Hunt" className="img main-img"/>        
+        <img src={main_office} alt="Job Hunt" className="img main-img" />
       </div>
     </Wrapper>
   );
