@@ -2,6 +2,8 @@
 
 Job Lagbe is a full-stack MERN (MongoDB, Express, React, Node.js) web application designed to simplify the job-hunting process. Whether you're a candidate looking for your dream job or a recruiter searching for the best candidates, Job Lagbe provides a dynamic and user-friendly platform to help you achieve your goals.
 
+![image](https://github.com/user-attachments/assets/f43c7a27-d9b0-41c3-b849-7c401bde1fd3)
+
 ## Features
 
 - **Landing Page**: A sleek and modern landing page showcasing the app's core functionality.
